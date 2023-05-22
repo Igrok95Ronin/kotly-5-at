@@ -1,0 +1,88 @@
+.mainFon {
+}
+.mainFon__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.mainFon__left {
+}
+.mainFon__imgW {
+}
+.mainFon__img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.mainFon__priceW {
+    margin-top: -30px;
+    background-color: $mainColor;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/ok6.png);
+        background-size: cover;
+        right: -20px;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+    }
+}
+.mainFon__top {
+}
+.mainFon__price {
+    font-weight: 700;
+    font-size: 30px;
+    span{
+        font-size: 60px;
+    }
+}
+.mainFon__right {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainFon__txt {
+    line-height: 26px;
+}
+.mainFon__btnW {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.mainFon__btnTxt {
+}
+.mainFon__btn {
+    background-color: $mainColor;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    span{
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            background-image: url(../img/ok4.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            left: -25px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
