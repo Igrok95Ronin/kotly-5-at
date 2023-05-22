@@ -1,0 +1,29 @@
+.vaillant {
+    padding: 0 0 35px;
+}
+.vaillant__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.vaillant__left {
+}
+.vaillant__imgW {
+}
+.vaillant__img {
+    width: 100%;
+    height: 100%;
+}
+.vaillant__title {
+    font-weight: 700;
+    padding: 5px;
+    span{
+        color: #076d33;
+    }
+}
+.vaillant__right {
+}
+.vaillant__txt{
+    padding: 10px;
+    line-height: 26px;
+}
