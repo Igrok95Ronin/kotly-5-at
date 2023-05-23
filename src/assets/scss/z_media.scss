@@ -1,3 +1,13 @@
+@media(max-width: 767px) {
+    .mainFon__box,
+    .ourThermal__box,
+    .vaillant__box,
+    .junkers__box,
+    .baxi__box,
+    .marken__box {
+        grid-template-columns: 1fr;
+    }
+}
 @media(max-width: 500px) {
     .btnFixedD {
         display: none;
@@ -7,5 +17,8 @@
     }
     footer {
         margin-bottom: 60px;
+    }
+    .mainFon__img {
+        height: 400px;
     }
 }
